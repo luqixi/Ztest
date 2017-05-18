@@ -1,0 +1,6 @@
+[2017-04-05 11:01:11,     0]INFO [main](SetTest.java:21) - 为null
+ [2017-04-05 11:01:34,     0]INFO [main](SetTest.java:22) - 为null
+ [2017-04-05 11:02:12,     0]INFO [main](SetTest.java:22) - 为null，或者大小为0
+ [2017-04-05 11:02:21,     0]INFO [main](SetTest.java:22) - 为null，或者大小为0
+ [2017-04-05 11:02:45,     0]INFO [main](SetTest.java:21) - 不为null，大小也大于0
+ 

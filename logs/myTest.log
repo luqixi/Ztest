@@ -1,0 +1,10 @@
+[2017-05-09 14:24:35,     0]INFO [main](SetTest.java:21) - 不为null，大小也大于0
+ [2017-05-09 14:25:19,     0]INFO [main](SetTest.java:21) - 不为null，大小也大于0
+ [2017-05-09 14:25:52,     0]INFO [main](SetTest.java:21) - 不为null，大小也大于0
+ [2017-05-09 14:30:18,     0]INFO [main](SetTest.java:22) - 不为null，大小也大于0
+ [2017-05-09 14:31:21,     1]INFO [main](SetTest.java:22) - 不为null，大小也大于0
+ [2017-05-09 14:35:19,     0]INFO [main](SetTest.java:23) - 不为null，大小也大于0
+ [2017-05-09 14:36:08,     0]INFO [main](SetTest.java:24) - 不为null，大小也大于0
+ [2017-05-09 14:57:46,     0]INFO [main](SetTest.java:24) - 不为null，大小也大于0
+ [2017-05-09 15:33:17,     0]INFO [main](SetTest.java:24) - 不为null，大小也大于0
+ 

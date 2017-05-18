@@ -1,0 +1,7 @@
+[2017-04-17 14:53:20,     0]INFO [main](SLF4JLogger.java:71) - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+ [2017-04-17 14:53:20,   198]INFO [main](SLF4JLogger.java:71) - No server chosen by WritableServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=SINGLE, serverDescriptions=[ServerDescription{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+ [2017-04-17 14:53:20,   297]INFO [cluster-ClusterId{value='58f466601886e117a42c40fe', description='null'}-localhost:27017](SLF4JLogger.java:71) - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+ [2017-04-17 14:53:20,   302]INFO [cluster-ClusterId{value='58f466601886e117a42c40fe', description='null'}-localhost:27017](SLF4JLogger.java:71) - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 3]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=1467696}
+ [2017-04-17 14:53:20,   321]INFO [main](SLF4JLogger.java:71) - Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+ [2017-04-17 14:53:20,   455]INFO [main](SLF4JLogger.java:71) - Closed connection [connectionId{localValue:2, serverValue:2}] to localhost:27017 because the pool has been closed.
+ 

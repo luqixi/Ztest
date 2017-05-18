@@ -1,0 +1,289 @@
+[2017-04-03 13:26:57,     0]INFO [main](CallableAndFuture.java:67) - task1: flag = 0
+ [2017-04-03 13:26:57,     7]INFO [pool-1-thread-2](CallableAndFuture.java:40) - looping._循环中
+ [2017-04-03 13:26:59,  2007]INFO [pool-1-thread-2](CallableAndFuture.java:40) - looping._循环中
+ [2017-04-03 13:27:01,  4009]INFO [pool-1-thread-2](CallableAndFuture.java:40) - looping._循环中
+ [2017-04-03 13:27:02,  5006]INFO [main](CallableAndFuture.java:72) - task2 cancel: true
+ [2017-04-03 13:27:02,  5007]INFO [pool-1-thread-2](CallableAndFuture.java:44) - Interrupted_被打断了
+ [2017-04-03 13:27:02,  5011]INFO [main](CallableAndFuture.java:80) - java.util.concurrent.ExecutionException: java.lang.Exception: Bad flag value!
+ [2017-04-03 13:28:20,     0]INFO [main](AbstractConfig.java:180) - ProducerConfig values: 
+	acks = 1
+	batch.size = 1048576
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 100
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 5242880
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [2017-04-03 13:28:20,    78]INFO [main](AbstractConfig.java:180) - ProducerConfig values: 
+	acks = 1
+	batch.size = 1048576
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 100
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 5242880
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [2017-04-03 13:28:20,   219]INFO [main](AppInfoParser.java:83) - Kafka version : 0.10.1.0
+ [2017-04-03 13:28:20,   219]INFO [main](AppInfoParser.java:84) - Kafka commitId : 3402a74efb23d1d4
+ [2017-04-03 13:29:36,     0]INFO [main](KafkaConsumerTest.java:68) - props
+ [2017-04-03 13:29:36,   348]INFO [main](Logging.scala:70) - Verifying properties
+ [2017-04-03 13:29:36,   379]INFO [main](Logging.scala:70) - Property auto.commit.enable is overridden to true
+ [2017-04-03 13:29:36,   379]INFO [main](Logging.scala:70) - Property auto.commit.interval.ms is overridden to 60000
+ [2017-04-03 13:29:36,   379]INFO [main](Logging.scala:70) - Property auto.offset.reset is overridden to largest
+ [2017-04-03 13:29:36,   395]INFO [main](Logging.scala:70) - Property group.id is overridden to htsmotTest
+ [2017-04-03 13:29:36,   395]INFO [main](Logging.scala:70) - Property rebalance.max.retries is overridden to 4
+ [2017-04-03 13:29:36,   395]INFO [main](Logging.scala:70) - Property zookeeper.connect is overridden to localhost:2181
+ [2017-04-03 13:29:36,   395]INFO [main](Logging.scala:70) - Property zookeeper.connection.timeout.ms is overridden to 15000
+ [2017-04-03 13:29:36,   395]INFO [main](Logging.scala:70) - Property zookeeper.session.timeout.ms is overridden to 15000
+ [2017-04-03 13:29:37,  1280]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], Connecting to zookeeper instance at localhost:2181
+ [2017-04-03 13:29:37,  1312]INFO [ZkClient-EventThread-14-localhost:2181](ZkEventThread.java:64) - Starting ZkClient event thread.
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:zookeeper.version=3.4.3-1240972, built on 02/06/2012 10:48 GMT
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:host.name=192.168.184.1
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.version=1.8.0_91
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.vendor=Oracle Corporation
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.home=D:\jdk1.8.0_91\jre
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.class.path=E:\workspace_mars2\ZTest\target\classes;D:\.m2\repository\org\apache\logging\log4j\log4j-core\2.1\log4j-core-2.1.jar;D:\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\.m2\repository\org\apache\logging\log4j\log4j-api\2.1\log4j-api-2.1.jar;D:\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;D:\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;D:\.m2\repository\org\apache\kafka\kafka_2.11\0.10.1.0\kafka_2.11-0.10.1.0.jar;D:\.m2\repository\net\sf\jopt-simple\jopt-simple\4.9\jopt-simple-4.9.jar;D:\.m2\repository\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.4\scala-parser-combinators_2.11-1.0.4.jar;D:\.m2\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;D:\.m2\repository\org\apache\kafka\kafka-clients\0.10.1.0\kafka-clients-0.10.1.0.jar;D:\.m2\repository\net\jpountz\lz4\lz4\1.3.0\lz4-1.3.0.jar;D:\.m2\repository\org\xerial\snappy\snappy-java\1.1.2.6\snappy-java-1.1.2.6.jar;D:\.m2\repository\org\scala-lang\scala-library\2.11.8\scala-library-2.11.8.jar;D:\.m2\repository\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;D:\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\.m2\repository\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;D:\.m2\repository\redis\clients\jedis\2.8.1\jedis-2.8.1.jar;D:\.m2\repository\com\alibaba\fastjson\1.2.8\fastjson-1.2.8.jar;D:\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\.m2\repository\com\101tec\zkclient\0.9\zkclient-0.9.jar;D:\.m2\repository\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;D:\.m2\repository\org\apache\zookeeper\zookeeper\3.4.3\zookeeper-3.4.3.jar;D:\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;D:\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;D:\.m2\repository\org\jboss\netty\netty\3.2.2.Final\netty-3.2.2.Final.jar;D:\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;D:\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;D:\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.4.2\jackson-databind-2.4.2.jar;D:\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.4.0\jackson-annotations-2.4.0.jar;D:\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.4.2\jackson-core-2.4.2.jar;D:\.m2\repository\org\mongodb\mongo-java-driver\3.4.2\mongo-java-driver-3.4.2.jar
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.library.path=D:\jdk1.8.0_91\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\jdk1.8.0_91;D:\app\linkage\product\11.1.0\db_1\bin;D:\jboss-as-7.1.1.Final\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;D:\TortoiseSVN\bin;D:\apache-maven-3.3.1\bin;D:\Python27;.
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.io.tmpdir=C:\Users\linkage\AppData\Local\Temp\
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:java.compiler=<NA>
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:os.name=Windows 7
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:os.arch=amd64
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:os.version=6.1
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:user.name=linkage
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:user.home=C:\Users\linkage
+ [2017-04-03 13:29:37,  1312]INFO [main](Environment.java:98) - Client environment:user.dir=E:\workspace_mars2\ZTest
+ [2017-04-03 13:29:37,  1327]INFO [main](ZooKeeper.java:433) - Initiating client connection, connectString=localhost:2181 sessionTimeout=15000 watcher=org.I0Itec.zkclient.ZkClient@4d339552
+ [2017-04-03 13:29:37,  1405]INFO [main](ZkClient.java:935) - Waiting for keeper state SyncConnected
+ [2017-04-03 13:29:37,  1405]INFO [main-SendThread()](ClientCnxn.java:933) - Opening socket connection to server /127.0.0.1:2181
+ [2017-04-03 13:29:37,  1405]INFO [main-SendThread(127.0.0.1:2181)](ZooKeeperSaslClient.java:125) - Client will not SASL-authenticate because the default JAAS configuration section 'Client' could not be found. If you are not using SASL, you may ignore this. On the other hand, if you expected SASL to work, please fix your JAAS configuration.
+ [2017-04-03 13:29:37,  1421]INFO [main-SendThread(127.0.0.1:2181)](ClientCnxn.java:846) - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+ [2017-04-03 13:29:37,  1484]INFO [main-SendThread(127.0.0.1:2181)](ClientCnxn.java:1175) - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15b3249d9480001, negotiated timeout = 15000
+ [2017-04-03 13:29:37,  1484]INFO [main-EventThread](ZkClient.java:712) - zookeeper state changed (SyncConnected)
+ [2017-04-03 13:29:37,  1500]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], starting auto committer every 60000 ms
+ [2017-04-03 13:29:37,  1531]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], begin registering consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c in ZK
+ [2017-04-03 13:29:37,  1578]INFO [main](Logging.scala:70) - Creating /consumers/htsmotTest/ids/htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c (is it secure? false)
+ [2017-04-03 13:29:38,  1690]INFO [main](Logging.scala:70) - Result of znode creation is: OK
+ [2017-04-03 13:29:38,  1690]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], end registering consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c in ZK
+ [2017-04-03 13:29:38,  1690]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c_watcher_executor](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], starting watcher executor thread for consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c
+ [2017-04-03 13:29:38,  1721]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], begin rebalancing consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c try #0
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [ConsumerFetcherManager-1491197377835] Stopping leader finder thread
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [ConsumerFetcherManager-1491197377835] Stopping all fetchers
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [ConsumerFetcherManager-1491197377835] All connections stopped
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], Cleared all relevant queues for this fetcher
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], Cleared the data chunks in all the consumer message iterators
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], Committing all offsets after clearing the fetcher queues
+ [2017-04-03 13:29:38,  1854]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], Releasing partition ownership
+ [2017-04-03 13:29:38,  1901]INFO [main](Logging.scala:70) - Consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c rebalancing the following partitions: ArrayBuffer(0, 1, 2) for topic test with consumers: List(htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0)
+ [2017-04-03 13:29:38,  1901]INFO [main](Logging.scala:70) - htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0 attempting to claim partition 0
+ [2017-04-03 13:29:38,  1901]INFO [main](Logging.scala:70) - htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0 attempting to claim partition 1
+ [2017-04-03 13:29:38,  1901]INFO [main](Logging.scala:70) - htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0 attempting to claim partition 2
+ [2017-04-03 13:29:38,  1963]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0 successfully owned partition 1 for topic test
+ [2017-04-03 13:29:38,  2010]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0 successfully owned partition 2 for topic test
+ [2017-04-03 13:29:38,  2057]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0 successfully owned partition 0 for topic test
+ [2017-04-03 13:29:38,  2104]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], Consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c selected partitions : test:0: fetched offset = 2: consumed offset = 2,test:1: fetched offset = 5: consumed offset = 5,test:2: fetched offset = 3: consumed offset = 3
+ [2017-04-03 13:29:38,  2104]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread], Starting 
+ [2017-04-03 13:29:38,  2104]INFO [main](Logging.scala:70) - [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c], end rebalancing consumer htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c try #0
+ [2017-04-03 13:29:38,  2119]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Verifying properties
+ [2017-04-03 13:29:38,  2119]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Property client.id is overridden to htsmotTest
+ [2017-04-03 13:29:38,  2119]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Property metadata.broker.list is overridden to 192.168.184.1:9092
+ [2017-04-03 13:29:38,  2119]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Property request.timeout.ms is overridden to 30000
+ [2017-04-03 13:29:38,  2135]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Fetching metadata from broker BrokerEndPoint(0,192.168.184.1,9092) with correlation id 0 for 1 topic(s) Set(test)
+ [2017-04-03 13:29:38,  2135]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Connected to 192.168.184.1:9092 for producing
+ [2017-04-03 13:29:38,  2197]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - Disconnecting from 192.168.184.1:9092
+ [2017-04-03 13:29:38,  2214]INFO [ConsumerFetcherThread-htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0-0](Logging.scala:70) - [ConsumerFetcherThread-htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-0-0], Starting 
+ [2017-04-03 13:29:38,  2230]INFO [htsmotTest_SZ-GADZ010074-1491197377615-2c322a0c-leader-finder-thread](Logging.scala:70) - [ConsumerFetcherManager-1491197377835] Added fetcher for partitions ArrayBuffer([test-1, initOffset 5 to broker BrokerEndPoint(0,192.168.184.1,9092)] , [test-0, initOffset 2 to broker BrokerEndPoint(0,192.168.184.1,9092)] , [test-2, initOffset 3 to broker BrokerEndPoint(0,192.168.184.1,9092)] )
+ [2017-04-03 13:29:56,     0]INFO [main](AbstractConfig.java:180) - ProducerConfig values: 
+	acks = 1
+	batch.size = 1048576
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 100
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 5242880
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [2017-04-03 13:29:56,    94]INFO [main](AbstractConfig.java:180) - ProducerConfig values: 
+	acks = 1
+	batch.size = 1048576
+	block.on.buffer.full = false
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	interceptor.classes = null
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 100
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 5242880
+	metadata.fetch.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	timeout.ms = 30000
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+ [2017-04-03 13:29:56,   219]INFO [main](AppInfoParser.java:83) - Kafka version : 0.10.1.0
+ [2017-04-03 13:29:56,   219]INFO [main](AppInfoParser.java:84) - Kafka commitId : 3402a74efb23d1d4
+ [2017-04-03 13:29:57,   390]INFO [main](KafkaProducer.java:685) - Closing the Kafka producer with timeoutMillis = 9223372036854775807 ms.
+ [2017-04-03 13:29:57, 21127]INFO [pool-2-thread-1](KafkaConsumerTest.java:93) - count index = 1
+ 
